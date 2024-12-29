@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background: rgb(160, 159, 159);
+    font-family: "Mona Sans", serif;
+}
+.con{
+    width: 1200px;
+    margin: auto;
+}
+.flex{
+    display: flex;
+}
+.jc{
+    justify-content: space-between;
+}
+.ai{
+    align-items: center;
+}
+.box{
+    width:1200px ;
+    
+}
+.w-100{
+    width: 100%;
+    height: 100%;
+}
+.left{
+    width: 300px;
+    height: 570px;
+    background-image: linear-gradient(to bottom, rgba(92, 67, 67, 0.886), rgba(66, 60, 60, 0.676));
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 5);
+    backdrop-filter: blur(5px);
+    opacity: 0.9;
+    text-align: center;
+}
+.right{
+    width: 800px;
+    height: 570px;
+    background-image: linear-gradient(to bottom, rgba(92, 67, 67, 0.886), rgba(66, 60, 60, 0.676));
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 5);
+    backdrop-filter: blur(5px);
+    opacity: 0.9;
+}
+.parent{
+    position: relative;
+}
+.left{
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    border-radius:20px ;
+    
+}
+.right{
+    position: absolute;
+    right: 30px;
+    top: 40px;
+    border-radius: 20px;
+}
+#wall{
+    border-radius: 20px;
+    margin-top: 10px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 5);
+}
+footer{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.639),rgb(92, 89, 89));
+    padding: 10px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 1200px;
+    border-radius: 0px 0px 20px 20px;
+    font-size: 13px;
+    font-weight: 600;
+    word-spacing: 3px;
+}
+.w{
+    border-bottom: 1px solid white;
+    padding-bottom:4px;
+    border-radius: 0 0 3px 3px;
+    margin-top: 15px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+.location{
+    color: white;
+    margin-top: 50px;
+   text-align: center;
+   line-height: 40px;
+}
+a{
+    color: white;
+}
+.item{
+    width: 175px;
+    height: 100px;
+    background-image: linear-gradient(gray,black);
+    word-spacing: 5px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px;
+    transition: 1s;
+    overflow: hidden;
+}
+.item:hover{
+    transform: scale(1.1);
+}
+.items{
+    gap: 50px;
+    margin: 100px 50px 0 90px;
+    flex-wrap: wrap;
+    color: white;
+    font-size: 14px;
+}
+.weather{
+    margin-top: 8px;
+    color: white;
+}
+form{
+    margin-top: 15px;
+}
+form input{
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+form button{
+    border: none;
+    background-color: transparent;
+    color: black;
+    font-size: large;
+    border-radius: 50%;
+    padding: 5px 8px;
+    position: absolute;
+    top: 12%;
+    right: 14%;
+}
+
+.left section{
+    margin-top: 30px;
+    color: white;
+}
+section p{
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+.temperature img{
+    width: 150px;
+    filter: drop-shadow(0 10px 30px white);
+}
+
+section ul{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    padding: 0 10px;
+}
+section li{
+    background-color: gray;
+    border-radius: 10px;
+    height: 100px;
+    box-shadow: 2px 2px 2px;
+    background-image: linear-gradient(transparent, black);
+    font-weight: bold;
+    font-size: 20px;
+}
+.result .name{
+    font-weight: bold;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}

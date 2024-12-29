@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weatherapp-Ishan</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="2461793_IshanBikramShah.css">
+</head>
+
+<body>
+    <div class="box con">
+
+        <div class="parent">
+            <img id="wall" class="w-100" src="cloud.jpg" alt="">
+
+            <div class="left" id="main">
+                <div class="w">Today's Weather</div>
+
+                <form action="">
+                    <input id="valueSearch" type="text" placeholder="Enter City Name..." autocomplete="off">
+                    <button><i class="bi bi-search"></i></button>
+                </form>
+
+                <section class="result">
+                    <figure class="name" id="city">
+                        <figcaption>Rajbiraj</figcaption>
+                        <img src="" alt="">
+                    </figure>
+
+                    <figure class="temperature" id="temperature">
+                        <img src="" alt="">
+                        <figcaption>
+                            <span style="font-size: 18px; font-weight: 700;">30</span><sup>o</sup>C
+                        </figcaption>
+                    </figure>
+
+                    <p class="description"></p>
+
+                    <ul>
+                        <li>
+                            <span>Clouds</span><br>
+                            <i class="bi bi-cloud-fill"></i><br>
+                            <span id="clouds"></span>%
+                        </li>
+                        <li>
+                            <span>Humidity</span><br>
+                            <i class="bi bi-droplet-half"></i><br>
+                            <span id="humidity"></span>%
+                        </li>
+                    </ul>
+
+                </section>
+
+
+
+            </div>
+
+            <div class="right">
+                <div class="location" >
+                    <div class="datetime">
+                        <div id="time"></div>
+                        <div class="date"></div>
+                    </div>
+                    
+                    <a href="https://maps.app.goo.gl/1ST6gUmhAPFBRCnYA" target="_blank">
+                        <span style="font-size: 30px;"> <i class="bi bi-geo-alt"></i></i>
+                            Rajbiraj,Saptari,Nepal</span></a>
+
+                </div>
+
+
+                <div class=" items flex ">
+                    <div class="item" id="coord">Co-ordinates</div>
+                    <div class="item" id="visibility">Visibility</div>
+                    <div class="item" id="wind">Wind</div>
+                    <div class="item" id="pressure">Pressure</div>
+                    <div class="item" id="temp">Temperature</div>
+                    <div class="item" id="sealevel">Sea Level</div>
+                </div>
+
+            </div>
+            <footer>
+                <p>Copyright © 2024 | Ishan Bikram Shah | Student Id-2461793 | All rights
+                    reserved.</p>
+            </footer>
+        </div>
+    </div>
+
+    <script src="2461793_IshanBikramShah.js"></script>
+</body>
+
+</html>
